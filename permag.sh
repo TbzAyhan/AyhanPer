@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/permag.ir
+cd $HOME/AyhanPer
 
 install() {
 	    cd tg
@@ -31,7 +31,8 @@ if [ ! -f ./tg/tgcli ]; then
     exit 1
 fi
    echo -e "\033[38;5;208m"
-   echo -e "     > best anti spam source permag.ir                       "
+   echo -e "     > best anti spam source AyhanPer                       "
+   echo -e " tg:♔ @TbzAyhan ♔
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
    ./tg/tgcli -s ./bot/bot.lua $@
